@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<link rel="stylesheet" type="text/css" href="myhomepage.css">
+
+<script>
+
+	function initial(){
+		document.getElementById('aboutme').style.display = 'none';
+	}
+
+	function funct1(name){
+		var x1 = document.getElementById(name);
+		var x = document.getElementsByClassName("oo");
+    	for (i = 0; i < x.length; i++) {
+        	x[i].style.display = "none";  
+    	}
+		document.getElementById(name).style.display = "block";
+}
+</script>
+
+<body onload = "document.getElementById('gallery1').style.display = 'none'">
+<div class="container">
+  <ul class="nav nav-pills">
+    <li onclick = "document.getElementById('aboutme').style.display = 'block';document.getElementById('contact').style.display = 'none';document.getElementById('gallery1').style.display = 'none'"><a href="#">About Me</a></li>
+    <li onclick = "document.getElementById('contact').style.display = 'none';document.getElementById('aboutme').style.display = 'none';document.getElementById('gallery1').style.display = 'block'"><a href="#">Gallery</a></li>
+    <li onclick = "document.getElementById('contact').style.display = 'block';document.getElementById('aboutme').style.display = 'none';document.getElementById('gallery1').style.display = 'none'"><a href="#">Contact</a></li>   
+  </ul>
+</div>
+
+<div id = "aboutme" class = "oo">
+<div align= "center" style= "background-color:black ;opacity:0.8" >
+<h1 style="font-size:40px;color:white">Apurva Singhal</h1>
+</div>
+<div style=" opacity:0.8">
+	<div align="center">
+	<p style="font-size:20px; color:black;border-color:black;border-radius:20px"><br>
+	I am graduate from <a href="http://www.iitr.ac.in" style ="color:black" ><b>IIT Roorkee</b></a>.<br></a><br>
+	My branch is <b>Metallurgical and Materials Engineering</b>.<br>
+	I like sketching, playing tennis, shopping and watching movies.<br>
+	My hometown is <b>Jaipur</b> and currently, I am in <b>Hyderabad</b> working as SDE at <b>Zemoso Technologies</b>.<br>
+	I love hanging out with my friends.<br>
+	I am a part of IMG and NSO.<br>
+	PS~ i love coding ..:PS
+	Visit My <a href="http://facebook.com/27.appy" style ="color:black" ><b>facebook</b></a> profile for more.</p>
+	</div>
+</div>
+</div>
+
+<div id="contact" style="display:none" class = "oo">
+	<div align="center" style ="background-color:white; width:950px;margin-left:200px"><font size="9" color ="black">
+	<div style="opacity:1.0" >
+		<form><table style="font-size:15px"><caption style="font-size:25px"> Enter Your Information below </caption>
+		<tr><td>
+		Name</td><td>
+		<input type="text"></td></tr>
+		<tr><td>Age</td><td><input type="text"></td></tr>
+		<tr><td>Phone No.</td><td><input type="text"></td></tr>
+		<tr><td>E-Mail</td><td><input type="email"></td></tr>
+		<tr><td>Address</td><td><textarea rows="2" cols="30"></textarea></td></tr>
+		<tr><td><input type="reset"></td><td>
+		<input type="submit" name="submit"></td></tr>
+		</table></form></font>
+		</div></div>
+</div>
+
+
+<div id = "gallery1">
+
+<div class="gallery item polaroid">
+  <a target="_blank" href="me.jpg">
+    <img src="me.jpg" alt="Trolltunga Norway" width="300" height="200">
+  </a>
+  
+</div>
+
+
+
+
+<div class="gallery item">
+  <a target="_blank" href="we2.jpg">
+    <img src="we2.jpg" alt="Mountains" width="300" height="200">
+  </a>
+  
+</div>
+<div class="gallery item">
+  <a target="_blank" href="we3.jpg">
+    <img src="we3.jpg" alt="Mountains" width="300" height="200">
+  </a>
+  
+</div>
+<div class="gallery item">
+  <a target="_blank" href="we4.jpg">
+    <img src="we4.jpg" alt="Mountains" width="300" height="200">
+  </a>
+  
+</div>
+<div id = "gallery1">
+<div class="gallery item">
+  <a target="_blank" href="me.jpg">
+    <img src="me.jpg" alt="Trolltunga Norway" width="300" height="200">
+  </a>
+  
+</div>
+
+
+
+
+<div class="gallery item">
+  <a target="_blank" href="we2.jpg">
+    <img src="we2.jpg" alt="Mountains" width="300" height="200">
+  </a>
+  
+</div>
+<div class="gallery item">
+  <a target="_blank" href="we3.jpg">
+    <img src="we3.jpg" alt="Mountains" width="300" height="200">
+  </a>
+  
+</div>
+<div class="gallery item">
+  <a target="_blank" href="we4.jpg">
+    <img src="we4.jpg" alt="Mountains" width="300" height="200">
+  </a>
+  
+</div>
+<div id = "gallery1">
+<div class="gallery item">
+  <a target="_blank" href="me.jpg">
+    <img src="me.jpg" alt="Trolltunga Norway" width="300" height="200">
+  </a>
+  
+</div>
+
+
+
+
+<div class="gallery item">
+  <a target="_blank" href="we2.jpg">
+    <img src="we2.jpg" alt="Mountains" width="300" height="200">
+  </a>
+  
+</div>
+<div class="gallery item">
+  <a target="_blank" href="we3.jpg">
+    <img src="we3.jpg" alt="Mountains" width="300" height="200">
+  </a>
+  
+</div>
+<div class="gallery item">
+  <a target="_blank" href="we4.jpg">
+    <img src="we4.jpg" alt="Mountains" width="300" height="200">
+  </a>
+  
+</div>
+<div id = "gallery1">
+<div class="gallery item">
+  <a target="_blank" href="me.jpg">
+    <img src="me.jpg" alt="Trolltunga Norway" width="300" height="200">
+  </a>
+  
+</div>
+
+
+
+
+<div class="gallery item">
+  <a target="_blank" href="we2.jpg">
+    <img src="we2.jpg" alt="Mountains" width="300" height="200">
+  </a>
+  
+</div>
+<div class="gallery item">
+  <a target="_blank" href="we3.jpg">
+    <img src="we3.jpg" alt="Mountains" width="300" height="200">
+  </a>
+  
+</div>
+<div class="gallery item">
+  <a target="_blank" href="we4.jpg">
+    <img src="we4.jpg" alt="Mountains" width="300" height="200">
+  </a>
+  
+</div>
+<div id = "gallery1">
+<div class="gallery item">
+  <a target="_blank" href="me.jpg">
+    <img src="me.jpg" alt="Trolltunga Norway" width="300" height="200">
+  </a>
+  
+</div>
+
+
+
+<div class="gallery item">
+  <a target="_blank" href="we2.jpg">
+    <img src="we2.jpg" alt="Mountains" width="300" height="200">
+  </a>
+  
+</div>
+<div class="gallery item">
+  <a target="_blank" href="we3.jpg">
+    <img src="we3.jpg" alt="Mountains" width="300" height="200">
+  </a>
+  
+</div>
+<div class="gallery item">
+  <a target="_blank" href="we4.jpg">
+    <img src="we4.jpg" alt="Mountains" width="300" height="200">
+  </a>
+  
+</div>
+<div id = "gallery1">
+<div class="gallery item">
+  <a target="_blank" href="me.jpg">
+    <img src="me.jpg" alt="Trolltunga Norway" width="300" height="200">
+  </a>
+  
+</div>
+
+
+
+<div class="gallery item">
+  <a target="_blank" href="we2.jpg">
+    <img src="we2.jpg" alt="Mountains" width="300" height="200">
+  </a>
+  
+</div>
+<div class="gallery item">
+  <a target="_blank" href="we3.jpg">
+    <img src="we3.jpg" alt="Mountains" width="300" height="200">
+  </a>
+  
+</div>
+<div class="gallery item">
+  <a target="_blank" href="we4.jpg">
+    <img src="we4.jpg" alt="Mountains" width="300" height="200">
+  </a>
+  
+</div>
+<div id = "gallery1">
+<div class="gallery item">
+  <a target="_blank" href="me.jpg">
+    <img src="me.jpg" alt="Trolltunga Norway" width="300" height="200">
+  </a>
+  
+</div>
+
+
+
+
+<div class="gallery item">
+  <a target="_blank" href="we2.jpg">
+    <img src="we2.jpg" alt="Mountains" width="300" height="200">
+  </a>
+  
+</div>
+<div class="gallery item">
+  <a target="_blank" href="we3.jpg">
+    <img src="we3.jpg" alt="Mountains" width="300" height="200">
+  </a>
+  
+</div>
+<div class="gallery item">
+  <a target="_blank" href="we4.jpg">
+    <img src="we4.jpg" alt="Mountains" width="300" height="200">
+  </a>
+  <div> This is image </div>
+</div>
+
+
+</div>
+
+</body>
+</html>
