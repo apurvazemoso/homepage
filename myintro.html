@@ -7,24 +7,9 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <link rel="stylesheet" type="text/css" href="myhomepage.css">
+<script type="text/javascript" src="homepage.js"></script>
 
-<script>
-
-	function initial(){
-		document.getElementById('aboutme').style.display = 'none';
-	}
-
-	function funct1(name){
-		var x1 = document.getElementById(name);
-		var x = document.getElementsByClassName("oo");
-    	for (i = 0; i < x.length; i++) {
-        	x[i].style.display = "none";  
-    	}
-		document.getElementById(name).style.display = "block";
-}
-</script>
-
-<body onload = "document.getElementById('gallery1').style.display = 'none'">
+<body onload = "loadjsonn(); document.getElementById('gallery1').style.display = 'none'">
 <div class="container">
   <ul class="nav nav-pills">
     <li onclick = "document.getElementById('aboutme').style.display = 'block';document.getElementById('contact').style.display = 'none';document.getElementById('gallery1').style.display = 'none'"><a href="#">About Me</a></li>
@@ -53,6 +38,10 @@
 </div>
 
 <div id="contact" style="display:none" class = "oo">
+<div align= "center" style= "background-color:black ;opacity:0.8" >
+<h1 style="font-size:40px;color:white">Contact us</h1>
+</div>
+<br>
 	<div align="center" style ="background-color:white; width:950px;margin-left:200px"><font size="9" color ="black">
 	<div style="opacity:1.0" >
 		<form><table style="font-size:15px"><caption style="font-size:25px"> Enter Your Information below </caption>
@@ -71,207 +60,12 @@
 
 
 <div id = "gallery1">
-
-<div class="gallery item polaroid">
-  <a target="_blank" href="me.jpg">
-    <img src="me.jpg" alt="Trolltunga Norway" width="300" height="200">
-  </a>
-  
+<div align= "center" style= "background-color:black ;opacity:0.8" >
+<h1 style="font-size:40px;color:white">My gallery</h1>
 </div>
+<br>
 
 
-
-
-<div class="gallery item">
-  <a target="_blank" href="we2.jpg">
-    <img src="we2.jpg" alt="Mountains" width="300" height="200">
-  </a>
-  
-</div>
-<div class="gallery item">
-  <a target="_blank" href="we3.jpg">
-    <img src="we3.jpg" alt="Mountains" width="300" height="200">
-  </a>
-  
-</div>
-<div class="gallery item">
-  <a target="_blank" href="we4.jpg">
-    <img src="we4.jpg" alt="Mountains" width="300" height="200">
-  </a>
-  
-</div>
-<div id = "gallery1">
-<div class="gallery item">
-  <a target="_blank" href="me.jpg">
-    <img src="me.jpg" alt="Trolltunga Norway" width="300" height="200">
-  </a>
-  
-</div>
-
-
-
-
-<div class="gallery item">
-  <a target="_blank" href="we2.jpg">
-    <img src="we2.jpg" alt="Mountains" width="300" height="200">
-  </a>
-  
-</div>
-<div class="gallery item">
-  <a target="_blank" href="we3.jpg">
-    <img src="we3.jpg" alt="Mountains" width="300" height="200">
-  </a>
-  
-</div>
-<div class="gallery item">
-  <a target="_blank" href="we4.jpg">
-    <img src="we4.jpg" alt="Mountains" width="300" height="200">
-  </a>
-  
-</div>
-<div id = "gallery1">
-<div class="gallery item">
-  <a target="_blank" href="me.jpg">
-    <img src="me.jpg" alt="Trolltunga Norway" width="300" height="200">
-  </a>
-  
-</div>
-
-
-
-
-<div class="gallery item">
-  <a target="_blank" href="we2.jpg">
-    <img src="we2.jpg" alt="Mountains" width="300" height="200">
-  </a>
-  
-</div>
-<div class="gallery item">
-  <a target="_blank" href="we3.jpg">
-    <img src="we3.jpg" alt="Mountains" width="300" height="200">
-  </a>
-  
-</div>
-<div class="gallery item">
-  <a target="_blank" href="we4.jpg">
-    <img src="we4.jpg" alt="Mountains" width="300" height="200">
-  </a>
-  
-</div>
-<div id = "gallery1">
-<div class="gallery item">
-  <a target="_blank" href="me.jpg">
-    <img src="me.jpg" alt="Trolltunga Norway" width="300" height="200">
-  </a>
-  
-</div>
-
-
-
-
-<div class="gallery item">
-  <a target="_blank" href="we2.jpg">
-    <img src="we2.jpg" alt="Mountains" width="300" height="200">
-  </a>
-  
-</div>
-<div class="gallery item">
-  <a target="_blank" href="we3.jpg">
-    <img src="we3.jpg" alt="Mountains" width="300" height="200">
-  </a>
-  
-</div>
-<div class="gallery item">
-  <a target="_blank" href="we4.jpg">
-    <img src="we4.jpg" alt="Mountains" width="300" height="200">
-  </a>
-  
-</div>
-<div id = "gallery1">
-<div class="gallery item">
-  <a target="_blank" href="me.jpg">
-    <img src="me.jpg" alt="Trolltunga Norway" width="300" height="200">
-  </a>
-  
-</div>
-
-
-
-<div class="gallery item">
-  <a target="_blank" href="we2.jpg">
-    <img src="we2.jpg" alt="Mountains" width="300" height="200">
-  </a>
-  
-</div>
-<div class="gallery item">
-  <a target="_blank" href="we3.jpg">
-    <img src="we3.jpg" alt="Mountains" width="300" height="200">
-  </a>
-  
-</div>
-<div class="gallery item">
-  <a target="_blank" href="we4.jpg">
-    <img src="we4.jpg" alt="Mountains" width="300" height="200">
-  </a>
-  
-</div>
-<div id = "gallery1">
-<div class="gallery item">
-  <a target="_blank" href="me.jpg">
-    <img src="me.jpg" alt="Trolltunga Norway" width="300" height="200">
-  </a>
-  
-</div>
-
-
-
-<div class="gallery item">
-  <a target="_blank" href="we2.jpg">
-    <img src="we2.jpg" alt="Mountains" width="300" height="200">
-  </a>
-  
-</div>
-<div class="gallery item">
-  <a target="_blank" href="we3.jpg">
-    <img src="we3.jpg" alt="Mountains" width="300" height="200">
-  </a>
-  
-</div>
-<div class="gallery item">
-  <a target="_blank" href="we4.jpg">
-    <img src="we4.jpg" alt="Mountains" width="300" height="200">
-  </a>
-  
-</div>
-<div id = "gallery1">
-<div class="gallery item">
-  <a target="_blank" href="me.jpg">
-    <img src="me.jpg" alt="Trolltunga Norway" width="300" height="200">
-  </a>
-  
-</div>
-
-
-
-
-<div class="gallery item">
-  <a target="_blank" href="we2.jpg">
-    <img src="we2.jpg" alt="Mountains" width="300" height="200">
-  </a>
-  
-</div>
-<div class="gallery item">
-  <a target="_blank" href="we3.jpg">
-    <img src="we3.jpg" alt="Mountains" width="300" height="200">
-  </a>
-  
-</div>
-<div class="gallery item">
-  <a target="_blank" href="we4.jpg">
-    <img src="we4.jpg" alt="Mountains" width="300" height="200">
-  </a>
-  <div> This is image </div>
-</div>
 
 
 </div>
