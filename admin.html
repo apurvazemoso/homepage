@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<link rel="stylesheet" type="text/css" href="myhomepage.css">
+<script type="text/javascript" src="adminn.js"></script>
+<script type="text/javascript" src="homepage.js"></script>
+<body>
+<div class = "oo">
+<div align= "center" style= "background-color:black ;opacity:0.8" >
+<h1 style="font-size:40px;color:white">Update Json</h1>
+</div><br>
+
+	<div align="center" style ="background-color:white; width:950px;margin-left:200px"><font size="9" color ="black">
+
+	<div style="opacity:1.0" >
+
+		<form>
+		<table style="font-size:15px">
+		<caption style="font-size:25px"> Update JSON file </caption>
+
+    <tr>
+    <td><input type="checkbox" id="myCheck1"> Add </td>
+    <td><input id="myInput1" type="text"></td>
+    </tr>
+
+    <tr>
+    <td><input type="checkbox" id="myCheck2"> Remove </td>
+    <td><input id="myInput2" placeholder="Enter image number" type="number"></td>
+    </tr>
+
+    <tr>
+    <td><input type="checkbox" id="myCheck3"> Edit </td>
+    <td><input id="myInput3" placeholder="Enter image number" type="number">  
+    <input id="myInput4" placeholder="Enter image file name" type="text"></td>
+    </tr>
+
+    <tr>
+    <td><br><button type="button" onclick = "submitJson()">Update</button></td>
+    <td><br><button type="button" onclick = "updateJson()">Back</button></td>
+    </tr>
+
+    </table>
+    </form>
+    </font>
+    </div>
+    </div>
+
+</div>
+</body>
